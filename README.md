@@ -11,7 +11,7 @@ This page provides the detailed derivations of the Lagrange equation correspondi
 
 ## Appx_B.md
 
-### Appendix B. Reference Trajeectory and Disturbance in Simulation
+### Appendix B. Reference Trajectory and Disturbance in Simulation
 
 This page provides the detailed derivations of the reference trajectories and external disturabance input to the simulation presented in the paper.
 
