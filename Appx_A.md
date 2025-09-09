@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (22) for the **nominal** and **actual** plant presented in the paper.
+This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (18) for the **nominal** and **actual** plant presented in the paper.
 
 ---
 
 ## Lagrange Equation
 
-In Eq. (22) of the paper, the Lagrange equation is expressed in the form $$\mathbf{M}\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\mathbf{u}$$:
+In Eq. (18) of the paper, the Lagrange equation is expressed in the form $$\mathbf{M}\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\mathbf{u}$$:
 
 $$
 \begin{bmatrix}
@@ -52,7 +52,7 @@ $$
 
 ## Nominal Plant
 
-For the nominal plant, Eq. (22) is expressed as follows:
+For the nominal plant, Eq. (18) is expressed as follows:
 
 $$
 \begin{cases}
@@ -76,13 +76,13 @@ $$
 
 ## Actual Plant
 
-In the actual plant, $$\dot{x}$$, $$\dot{\theta}_a$$, and $$\dot{\alpha}$$ obtained using Eq. (14) can be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+In the actual plant, $$\dot{x}$$, $$\dot{\theta}_a$$, and $$\dot{\alpha}$$ obtained using Eq. (11) can be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{k} = k_{dl} \dot{\phi}\_{xl} + k_{dr} \dot{\phi}\_{xr} = k_{dx} \dot{\phi}\_{x} + k_{d\theta} \dot{\theta}\ = (k_{dl}+k_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} k_{dl}+\dfrac{W}{2R} k_{dr} \right) \dot{\theta}\ \quad \text{for }\ k \in \\{x, \theta_a, \alpha \\} 
 $$
 
-Thus, for the actual plant, Eq. (22) is expressed as follows:
+Thus, for the actual plant, Eq. (18) is expressed as follows:
 
 $$
 \begin{cases}
