@@ -1,4 +1,4 @@
-# Appendix B. Reference Trajeectory and Disturbance in Simulation
+# Appendix B. Reference Trajectory and Disturbance in Simulation
 
 ## Introduction
 
