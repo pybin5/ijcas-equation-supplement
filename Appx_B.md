@@ -6,7 +6,7 @@ This page provides the detailed derivations of the reference trajectories and ex
 
 ---
 
-## Reference Trajeectory
+## Reference Trajectory
 
 The $$x$$ and $$y$$ positions for the triangular and circular trajectories input to the simulation are represented as $$x_{\mathrm{tri}}(t)$$, $$y_{\mathrm{tri}}(t)$$, $$x_{\mathrm{cir}}(t)$$, and $$y_{\mathrm{cir}}(t)$$, respectively, as follows:
 
