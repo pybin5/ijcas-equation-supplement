@@ -1,4 +1,4 @@
-# Appendix A. Lagrange equation for nominal and actual plant
+# Appendix A. Lagrange Equation for Nominal and Actual Plant
 
 ## Introduction
 
