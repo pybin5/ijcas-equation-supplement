@@ -6,7 +6,7 @@ This repository supports detailed formula explanation for the paper "Dynamic mod
 
 ### Appendix A. Lagrange equation for nominal and actual plant
 
-This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (22) for the **nominal** and **actual** plant presented in the paper.
+This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (18) for the **nominal** and **actual** plant presented in the paper.
 
 
 ## Appx_B.md
