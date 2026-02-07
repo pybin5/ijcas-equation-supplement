@@ -83,10 +83,10 @@ $$
 \dot{k} = k_{dl} \dot{\phi}\_{xl} + k_{dr} \dot{\phi}\_{xr} = k_{dx} \dot{\phi}\_{x} + k_{d\theta} \dot{\theta}\ = (k_{dl}+k_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} k_{dl}+\dfrac{W}{2R} k_{dr} \right) \dot{\theta}\ \quad \text{for }\ k \in \\{x, \theta_a, \alpha \\} 
 $$
 
-Based on the ground contact modes of the omnidirectional wheel defined in **Section** 2, the z-direction motions of the left and right wheels, $$z_{wl}$$ and $$z_{wr}$$, can be defined as follows:
+Based on the ground contact modes of the omnidirectional wheel defined in **Section** 2, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined as follows:
 
 $$
-z_{wl}=
+z_{l}=
 \begin{cases}
 R \quad \text{(Rolling Mode)} \\
 R \cos(\left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
@@ -94,14 +94,14 @@ R \cos(\left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling M
 $$
 
 $$
-z_{wr}=
+z_{r}=
 \begin{cases}
 R \quad \text{(Rolling Mode)} \\
 R \cos(\left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
 \end{cases}
 $$
 
-Since $z_m=\frac{z_{wl} + z_{wr}}{2}$, $$\dot{z}_m$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+Since $z_m=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}_m$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{z}\_{m} = z_{m,dl} \dot{\phi}\_{xl} + z_{m,dr} \dot{\phi}\_{xr} = z_{m,dx} \dot{\phi}\_{x} + z_{m,d\theta} \dot{\theta} = (z_{m,dl}+z_{m,dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{m,dl}+\dfrac{W}{2R} z_{m,dr} \right) \dot{\theta}\
