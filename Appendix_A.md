@@ -124,8 +124,8 @@ $$
 C_1 &= 2 \dot{a}\_{\phi_x} \dot{\phi}\_x + (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{dx} + b_3 \dot{z}\_{dx} ) \dot{\psi} - \dfrac{\partial}{\partial \phi_x} (a_{\phi_x}) \dot{\phi}\_x^2 - \dfrac{\partial}{\partial \phi_x} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\phi_x}(x_{dx}) + \dfrac{\partial}{\partial\phi_x}(b_3) z_{dx} + b_3 \dfrac{\partial}{\partial\phi_x}(z_{dx}) \right) \dot{\phi}\_x \dot{\psi} \\
 C_3 &= 2 \dot{a}\_{\theta} \dot{\theta} - \dfrac{\partial}{\partial \theta} (a_{\phi_x})\dot{\phi}\_x^2 - \dfrac{\partial}{\partial \theta} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\theta}(x_{dx}) + \dfrac{\partial}{\partial\theta}(b_3) z_{dx} + b_3 \dfrac{\partial}{\partial\theta}(z_{dx}) \right) \dot{\phi}\_x \dot{\psi} \\
 C_4 &= (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{dx} + b_3 \dot{z}\_{dx} ) \dot{\phi}\_x - \left(\dfrac{\partial}{\partial \psi} (b_1) x_{dx} + \dfrac{\partial}{\partial \psi} (b_3) z_{dx} \right) \dot{\phi}_x \dot{\psi} \\
-G_1 &= \dfrac{\partial U}{\partial\phi_x} = (2m+M) g \left( -R \sin(\alpha) + \dfrac{W}{2} \cos(\alpha)\right) \dfrac{\partial}{\partial\phi_x} (\alpha) \\
-G_3 &= \dfrac{\partial U}{\partial\theta} = (2m+M) g \left( -R \sin(\alpha) + \dfrac{W}{2} \cos(\alpha)\right) \dfrac{\partial}{\partial\theta} (\alpha) \\
+G_1 &= \dfrac{\partial U}{\partial\phi_x} = (2m+M) g \left( \dfrac{\partial}{\partial\phi_x} z \right) \\
+G_3 &= \dfrac{\partial U}{\partial\theta} = (2m+M) g \left( \dfrac{\partial}{\partial\theta} z \right) \\
 G_4 &= \dfrac{\partial U}{\partial\psi} = -Mgl\sin(\psi) 
 \end{cases}
 $$
