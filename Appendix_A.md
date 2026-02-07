@@ -135,22 +135,44 @@ where
 $$
 \begin{cases}
 a_1 &= m + \dfrac{1}{2}M \\
-a_2 &= \left(m + \dfrac{1}{2}M \right)r^2n_r^2 \\
 a_2 &= \left(m + \dfrac{1}{2}M \right)r^2 \\
-a_4 &= \dfrac{mW^2}{4} + \dfrac{1}{2}Ml^2\sin^2(\psi) \\
-a_5 &= \dfrac{1}{2} m W^2 \cos^2(\alpha) + \dfrac{1}{8} M W^2 \cos^2(\alpha) \\
+a_3 &= \dfrac{mW^2}{4} + \dfrac{1}{2}Ml^2\sin^2(\psi) \\
+a_4 &= \dfrac{mW^2}{4}\cos^2(\alpha) \\
 a_5 &= \dfrac{1}{2}Ml^2 \\
-a_{\phi_x} &= a_1 x_{dx}^2 + a_2 + a_4 \theta_{dx}^2 + a_5 \alpha_{dx}^2 \\ T phi x
-a_{\theta} &= a_1 x_{d\theta}^2 + a_4 \theta_{d\theta}^2 + a_5 \alpha_{d\theta}^2     T theta
+a_6 &= m + \dfrac{1}{2}M \\
+a_{\phi_x} &= a_1 x_{dx}^2 + a_3 \theta_{dx}^2 + a_4 \alpha_{dx}^2 + a_6 z_{dx}^2 \\
+a_{\theta} &= a_1 x_{d\theta}^2 + a_3 \theta_{d\theta}^2 + a_4 \alpha_{d\theta}^2 + a_6 z_{d\theta}^2
 \end{cases}
 $$
 
 $$
 \begin{cases}
 b_1 &=  Ml \cos(\psi)  \\
-b_2 &= \left(2m + M \right)r^2n_r \\
-b_3 &= Mrln_r \sin(\psi) \\
-b_4 &= Mrl \sin(\psi) \\
-b_5 &= -\dfrac{1}{2} MWl \cos(\alpha) \sin(\psi)
+b_2 &=  Mrl \sin(\psi)  \\
+b_3 &= -Ml \sin(\psi) \\
 \end{cases}
 $$
+
+
+/*
+$$
+\begin{cases}
+a_1 &= m + \dfrac{1}{2}M \\
+a_2 &= \left(m + \dfrac{1}{2}M \right)r^2 \\
+a_3 &= \dfrac{mW^2}{4} + \dfrac{1}{2}Ml^2\sin^2(\psi) \\
+a_4 &= \dfrac{mW^2}{4}\cos^2(\alpha) \\
+a_5 &= \dfrac{1}{2}Ml^2 \\
+a_6 &= m + \dfrac{1}{2}M \\
+a_{\phi_x} &= a_1 x_{dx}^2 + a_3 \theta_{dx}^2 + a_4 \alpha_{dx}^2 + a_6 z_{dx}^2 \\
+a_{\theta} &= a_1 x_{d\theta}^2 + a_3 \theta_{d\theta}^2 + a_4 \alpha_{d\theta}^2 + a_6 z_{d\theta}^2
+\end{cases}
+$$
+
+$$
+\begin{cases}
+b_1 &=  Ml \cos(\psi)  \\
+b_2 &=  Mrl \sin(\psi)  \\
+b_3 &= -Ml \sin(\psi) \\
+\end{cases}
+$$
+*/
