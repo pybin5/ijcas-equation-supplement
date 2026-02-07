@@ -1,4 +1,4 @@
-# Appendix A. Lagrange Equation for Nominal and Detailed Plant
+<img width="403" height="193" alt="image" src="https://github.com/user-attachments/assets/b76c69b3-6486-4e8e-8b91-29d72ed0a51b" /># Appendix A. Lagrange Equation for Nominal and Detailed Plant
 
 ## Introduction
 
@@ -101,10 +101,10 @@ R \cos(\left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling M
 \end{cases}
 $$
 
-As $z_m=\frac{z_{wl} + z_{wr}}{2}$, $$\dot{z}_m$$ also can be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+Since $z_m=\frac{z_{wl} + z_{wr}}{2}$, $$\dot{z}_m$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
-\dot{z}\_{m} = z_{m,dl} \dot{\phi}\_{xl} + z_{m,dr} \dot{\phi}\_{xr} = z_{m,dx} \dot{\phi}\_{x} + z_{m,d\theta} \dot{\theta}
+\dot{z}\_{m} = z_{m,dl} \dot{\phi}\_{xl} + z_{m,dr} \dot{\phi}\_{xr} = z_{m,dx} \dot{\phi}\_{x} + z_{m,d\theta} \dot{\theta} = (z_{m,dl}+z_{m,dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{m,dl}+\dfrac{W}{2R} z_{m,dr} \right) \dot{\theta}\
 $$
 
 Thus, for the actual plant, Eq. (18) is expressed as follows:
