@@ -9,6 +9,12 @@ This repository supports detailed formula explanation for the paper "Heel Strike
 This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (18) for the **nominal** and **datailed** plant presented in the paper.
 
 
+## Appendix_B.md
+
+### Appendix B. Reference Trajectory and Disturbance in Simulation
+
+This page provides the detailed derivations of the reference trajectory input to the simulation presented in the paper.
+
 
 ## _config.yml
 
