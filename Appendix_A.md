@@ -89,7 +89,7 @@ $$
 z_{l}=
 \begin{cases}
 R \quad \text{(Rolling Mode)} \\
-R \cos(\left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+R \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
 \end{cases}
 $$
 
@@ -97,7 +97,7 @@ $$
 z_{r}=
 \begin{cases}
 R \quad \text{(Rolling Mode)} \\
-R \cos(\left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
 \end{cases}
 $$
 
