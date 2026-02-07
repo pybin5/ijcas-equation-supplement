@@ -154,7 +154,7 @@ b_3 &= -Ml \sin(\psi) \\
 $$
 
 
-/*
+<!--
 $$
 \begin{cases}
 a_1 &= m + \dfrac{1}{2}M \\
@@ -175,4 +175,4 @@ b_2 &=  Mrl \sin(\psi)  \\
 b_3 &= -Ml \sin(\psi) \\
 \end{cases}
 $$
-*/
+-->
