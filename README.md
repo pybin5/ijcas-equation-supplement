@@ -13,7 +13,7 @@ This page provides the detailed derivations of the Lagrange equation correspondi
 
 ### Appendix B. Reference Trajectory in Simulation
 
-This page provides the detailed derivations of the reference trajectory input to the simulation presented in the paper.
+This page provides the detailed derivation of the reference trajectory input to the simulation presented in the paper.
 
 
 ## _config.yml
