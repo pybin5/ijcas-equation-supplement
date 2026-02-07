@@ -104,7 +104,7 @@ $$
 Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
-\dot{z} = z_{m,dl} \dot{\phi}\_{xl} + z_{m,dr} \dot{\phi}\_{xr} = z_{m,dx} \dot{\phi}\_{x} + z_{m,d\theta} \dot{\theta} = (z_{m,dl}+z_{m,dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{m,dl}+\dfrac{W}{2R} z_{m,dr} \right) \dot{\theta}\
+\dot{z} = z_{dl} \dot{\phi}\_{xl} + z_{dr} \dot{\phi}\_{xr} = z_{dx} \dot{\phi}\_{x} + z_{d\theta} \dot{\theta} = (z_{dl}+z_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \right) \dot{\theta}\
 $$
 
 Thus, for the actual plant, Eq. (18) is expressed as follows:
@@ -112,7 +112,7 @@ Thus, for the actual plant, Eq. (18) is expressed as follows:
 $$
 \begin{cases}
 M_{11} &= 2a_{\phi_x} + 2I_w \\  
-M_{14} &= M_{41} = b_1 x_{dx} + b_3 z_{m,dx} \\
+M_{14} &= M_{41} = b_1 x_{dx} + b_3 z_{dx} \\
 M_{22} &= 2a_2 \\  
 M_{33} &= 2a_{\theta} + \dfrac{1}{2R^2}I_w W^2 + I_{\theta}  \\
 M_{44} &=  2a_5 + I_{\psi} = Ml^2  + I_{\psi} \\  
@@ -121,9 +121,9 @@ $$
 
 $$
 \begin{cases}
-C_1 &= 2 \dot{a}\_{\phi_x} \dot{\phi}\_x + (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{m,dx} + b_3 \dot{z}\_{m,dx} ) \dot{\psi} - \dfrac{\partial}{\partial \phi_x} (a_{\phi_x}) \dot{\phi}\_x^2 - \dfrac{\partial}{\partial \phi_x} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\phi_x}(x_{dx}) + \dfrac{\partial}{\partial\phi_x}(b_3) z_{m,dx} + b_3 \dfrac{\partial}{\partial\phi_x}(z_{m,dx}) \right) \dot{\phi}\_x \dot{\psi} \\
-C_3 &= 2 \dot{a}\_{\theta} \dot{\theta} - \dfrac{\partial}{\partial \theta} (a_{\phi_x})\dot{\phi}\_x^2 - \dfrac{\partial}{\partial \theta} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\theta}(x_{dx}) + \dfrac{\partial}{\partial\theta}(b_3) z_{m,dx} + b_3 \dfrac{\partial}{\partial\theta}(z_{m,dx}) \right) \dot{\phi}\_x \dot{\psi} \\
-C_4 &= (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{m,dx} + b_3 \dot{z}\_{m,dx} ) \dot{\phi}\_x - \left(\dfrac{\partial}{\partial \psi} (b_1) x_{dx} + \dfrac{\partial}{\partial \psi} (b_3) z_{m,dx} \right) \dot{\phi}_x \dot{\psi} \\
+C_1 &= 2 \dot{a}\_{\phi_x} \dot{\phi}\_x + (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{dx} + b_3 \dot{z}\_{dx} ) \dot{\psi} - \dfrac{\partial}{\partial \phi_x} (a_{\phi_x}) \dot{\phi}\_x^2 - \dfrac{\partial}{\partial \phi_x} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\phi_x}(x_{dx}) + \dfrac{\partial}{\partial\phi_x}(b_3) z_{dx} + b_3 \dfrac{\partial}{\partial\phi_x}(z_{dx}) \right) \dot{\phi}\_x \dot{\psi} \\
+C_3 &= 2 \dot{a}\_{\theta} \dot{\theta} - \dfrac{\partial}{\partial \theta} (a_{\phi_x})\dot{\phi}\_x^2 - \dfrac{\partial}{\partial \theta} (a_{\theta}) \dot{\theta}^2 - \left(b_1 \dfrac{\partial}{\partial\theta}(x_{dx}) + \dfrac{\partial}{\partial\theta}(b_3) z_{dx} + b_3 \dfrac{\partial}{\partial\theta}(z_{dx}) \right) \dot{\phi}\_x \dot{\psi} \\
+C_4 &= (\dot{b_1} x_{dx} + b_1 \dot{x}\_{dx} + \dot{b_3}z_{dx} + b_3 \dot{z}\_{dx} ) \dot{\phi}\_x - \left(\dfrac{\partial}{\partial \psi} (b_1) x_{dx} + \dfrac{\partial}{\partial \psi} (b_3) z_{dx} \right) \dot{\phi}_x \dot{\psi} \\
 G_1 &= \dfrac{\partial U}{\partial\phi_x} = (2m+M) g \left( -R \sin(\alpha) + \dfrac{W}{2} \cos(\alpha)\right) \dfrac{\partial}{\partial\phi_x} (\alpha) \\
 G_3 &= \dfrac{\partial U}{\partial\theta} = (2m+M) g \left( -R \sin(\alpha) + \dfrac{W}{2} \cos(\alpha)\right) \dfrac{\partial}{\partial\theta} (\alpha) \\
 G_4 &= \dfrac{\partial U}{\partial\psi} = -Mgl\sin(\psi) 
