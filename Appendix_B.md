@@ -8,7 +8,7 @@ This page provides the detailed derivations of the reference trajectory input to
 
 ## Reference Trajectory
 
-The $$x$$ and $$y$$ positions for the circular trajectories input to the simulation are represented as $$x_{\mathrm{cir}}(t)$$ and $$y_{\mathrm{cir}}(t)$$, respectively, as follows:
+The $$x$$ and $$y$$ positions for the circular trajectory input to the simulation are represented as $$x_{\mathrm{cir}}(t)$$ and $$y_{\mathrm{cir}}(t)$$, respectively, as follows:
 
 $$
 x_{\mathrm{cir}}(t) =
