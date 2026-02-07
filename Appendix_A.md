@@ -113,9 +113,9 @@ $$
 \begin{cases}
 M_{11} &= 2a_{\phi_x} + 2I_w \\  
 M_{14} &= M_{41} = b_1 x_{dx} + b_2 z_{dx} \\
-M_{22} &= 2a_1 \\  
+M_{22} &= 2a_2 \\  
 M_{33} &= 2a_{\theta} + \dfrac{1}{2R^2}I_w W^2 + I_{\theta}  \\
-M_{44} &=  2a_2 + I_{\psi} \\  
+M_{44} &=  2a_5 + I_{\psi} \\  
 \end{cases}
 $$
 
@@ -134,8 +134,12 @@ where
 
 $$
 \begin{cases}
-a_1 &= \left(m + \dfrac{1}{2}M \right)r^2 \\
-a_2 &= \dfrac{1}{2}Ml^2 \\
+a_1 &= m + \dfrac{1}{2}M \\
+a_2 &= \left(m + \dfrac{1}{2}M \right)r^2 \\
+a_3 &= \dfrac{mW^2}{4} + \dfrac{1}{2}Ml^2\sin^2(\psi) \\
+a_4 &= \dfrac{mW^2}{4}\cos^2(\alpha) \\
+a_5 &= \dfrac{1}{2}Ml^2 \\
+a_6 &= m + \dfrac{1}{2}M \\
 a_{\phi_x} &= a_1 x_{dx}^2 + a_3 \theta_{dx}^2 + a_4 \alpha_{dx}^2 + a_6 z_{dx}^2 \\
 a_{\theta} &= a_1 x_{d\theta}^2 + a_3 \theta_{d\theta}^2 + a_4 \alpha_{d\theta}^2 + a_6 z_{d\theta}^2
 \end{cases}
@@ -150,19 +154,6 @@ $$
 
 
 <!--
-$$
-\begin{cases}
-a_1 &= m + \dfrac{1}{2}M \\
-a_2 &= \left(m + \dfrac{1}{2}M \right)r^2 \\
-a_3 &= \dfrac{mW^2}{4} + \dfrac{1}{2}Ml^2\sin^2(\psi) \\
-a_4 &= \dfrac{mW^2}{4}\cos^2(\alpha) \\
-a_5 &= \dfrac{1}{2}Ml^2 \\
-a_6 &= m + \dfrac{1}{2}M \\
-a_{\phi_x} &= a_1 x_{dx}^2 + a_3 \theta_{dx}^2 + a_4 \alpha_{dx}^2 + a_6 z_{dx}^2 \\
-a_{\theta} &= a_1 x_{d\theta}^2 + a_3 \theta_{d\theta}^2 + a_4 \alpha_{d\theta}^2 + a_6 z_{d\theta}^2
-\end{cases}
-$$
-
 $$
 \begin{cases}
 b_1 &=  Ml \cos(\psi)  \\
