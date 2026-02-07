@@ -101,7 +101,7 @@ R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling M
 \end{cases}
 $$
 
-Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}_m$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{z} = z_{m,dl} \dot{\phi}\_{xl} + z_{m,dr} \dot{\phi}\_{xr} = z_{m,dx} \dot{\phi}\_{x} + z_{m,d\theta} \dot{\theta} = (z_{m,dl}+z_{m,dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{m,dl}+\dfrac{W}{2R} z_{m,dr} \right) \dot{\theta}\
