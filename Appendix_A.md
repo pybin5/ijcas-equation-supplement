@@ -83,6 +83,33 @@ $$
 \dot{k} = k_{dl} \dot{\phi}\_{xl} + k_{dr} \dot{\phi}\_{xr} = k_{dx} \dot{\phi}\_{x} + k_{d\theta} \dot{\theta}\ = (k_{dl}+k_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} k_{dl}+\dfrac{W}{2R} k_{dr} \right) \dot{\theta}\ \quad \text{for }\ k \in \\{x, \theta_a, \alpha \\} 
 $$
 
+where
+
+$$
+\begin{bmatrix}
+\phi_{xl} \\ 
+\phi_{xr}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{2} & \frac{1}{2}\\
+-\frac{R}{W} & \frac{R}{W}
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+\phi_{x} \\ 
+\theta
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & -\frac{W}{2R}\\
+1 & \frac{W}{2R}
+\end{bmatrix}
+\begin{bmatrix}
+\phi_{x} \\ 
+\theta
+\end{bmatrix}
+$$
+
 Based on the ground contact modes of the omnidirectional wheel defined in **Section** 2, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined as follows:
 
 $$
