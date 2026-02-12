@@ -90,17 +90,15 @@ $$
 \phi_{xl} \\ 
 \phi_{xr}
 \end{bmatrix}
-=
-\begin{bmatrix}
-\frac{1}{2} & \frac{1}{2}\\
+= \begin{bmatrix}
+\frac{1}{2} & \frac{1}{2} \\
 -\frac{R}{W} & \frac{R}{W}
 \end{bmatrix}^{-1}
 \begin{bmatrix}
 \phi_{x} \\ 
 \theta
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \begin{bmatrix}
 1 & -\frac{W}{2R}\\
 1 & \frac{W}{2R}
 \end{bmatrix}
