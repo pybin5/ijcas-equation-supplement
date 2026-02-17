@@ -355,8 +355,8 @@ $$
 \dot{x}\_{d\theta} &= -\dfrac{W}{2R} \dot{x}\_{dl} + \dfrac{W}{2R} \dot{x}\_{dr} \\
 \dfrac{\partial}{\partial\phi_x}(x_{dx}) &= \dfrac{\partial}{\partial\phi_x}(x_{dl}) + \dfrac{\partial}{\partial\phi_x}(x_{dr}) \\
 \dfrac{\partial}{\partial\theta}(x_{dx}) &= \dfrac{\partial}{\partial\theta}(x_{dl}) + \dfrac{\partial}{\partial\theta}(x_{dr}) \\
-\dfrac{\partial}{\partial\phi_x}(x_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(x_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(x_{dr}) \\
-\dfrac{\partial}{\partial\theta}(x_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(x_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(x_{dr}) \\
+\dfrac{\partial}{\partial\phi_x}(x_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(x_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(x_{dr}) \\
+\dfrac{\partial}{\partial\theta}(x_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(x_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(x_{dr}) \\
 \end{cases}
 $$
 
@@ -366,8 +366,8 @@ $$
 \dot{\theta}\_{a,d\theta} &= -\dfrac{W}{2R} \theta_{a,dl}+\dfrac{W}{2R} \theta_{a,dr} \\
 \dfrac{\partial}{\partial\phi_x}(\theta_{a,dx}) &= \dfrac{\partial}{\partial\phi_x}(\theta_{a,dl}) + \dfrac{\partial}{\partial\phi_x}(\theta_{a,dr}) \\
 \dfrac{\partial}{\partial\theta}(\theta_{a,dx}) &= \dfrac{\partial}{\partial\theta}(\theta_{a,dl}) + \dfrac{\partial}{\partial\theta}(\theta_{a,dr}) \\
-\dfrac{\partial}{\partial\phi_x}(\theta_{a,d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(\theta_{a,dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(\theta_{a,dr}) \\
-\dfrac{\partial}{\partial\theta}(\theta_{a,d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(\theta_{a,dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(\theta_{a,dr}) \\
+\dfrac{\partial}{\partial\phi_x}(\theta_{a,d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(\theta_{a,dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(\theta_{a,dr}) \\
+\dfrac{\partial}{\partial\theta}(\theta_{a,d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(\theta_{a,dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(\theta_{a,dr}) \\
 \end{cases}
 $$
 
@@ -377,8 +377,8 @@ $$
 \dot{\alpha}\_{d\theta} &= -\dfrac{W}{2R} \alpha_{dl}+\dfrac{W}{2R} \alpha_{dr} \\
 \dfrac{\partial}{\partial\phi_x}(\alpha_{dx}) &= \dfrac{\partial}{\partial\phi_x}(\alpha_{dl}) + \dfrac{\partial}{\partial\phi_x}(\alpha_{dr}) \\
 \dfrac{\partial}{\partial\theta}(\alpha_{dx}) &= \dfrac{\partial}{\partial\theta}(\alpha_{dl}) + \dfrac{\partial}{\partial\theta}(\alpha_{dr}) \\
-\dfrac{\partial}{\partial\phi_x}(\alpha_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(\alpha_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(\alpha_{dr}) \\
-\dfrac{\partial}{\partial\theta}(\alpha_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(\alpha_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(\alpha_{dr}) \\
+\dfrac{\partial}{\partial\phi_x}(\alpha_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(\alpha_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(\alpha_{dr}) \\
+\dfrac{\partial}{\partial\theta}(\alpha_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(\alpha_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(\alpha_{dr}) \\
 \end{cases}
 $$
 
@@ -388,7 +388,7 @@ $$
 \dot{z}\_{d\theta} &= -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \\
 \dfrac{\partial}{\partial\phi_x}(z_{dx}) &= \dfrac{\partial}{\partial\phi_x}(z_{dl}) + \dfrac{\partial}{\partial\phi_x}(z_{dr}) \\
 \dfrac{\partial}{\partial\theta}(z_{dx}) &= \dfrac{\partial}{\partial\theta}(z_{dl}) + \dfrac{\partial}{\partial\theta}(z_{dr}) \\
-\dfrac{\partial}{\partial\phi_x}(z_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(z_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\phi_x}(z_{dr}) \\
-\dfrac{\partial}{\partial\theta}(z_{d\theta}) &= -\dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(z_{dl}) + \dfrac{W}{2R} \dfrac{\partial}{\partial\theta}(z_{dr}) \\
+\dfrac{\partial}{\partial\phi_x}(z_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(z_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\phi_x}(z_{dr}) \\
+\dfrac{\partial}{\partial\theta}(z_{d\theta}) &= -\dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(z_{dl}) + \dfrac{W}{2R} \cdot \dfrac{\partial}{\partial\theta}(z_{dr}) \\
 \end{cases}
 $$
