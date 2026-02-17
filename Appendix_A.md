@@ -402,7 +402,7 @@ $$
 \dfrac{\partial}{\partial\theta}(\theta_{a,dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-- \frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
