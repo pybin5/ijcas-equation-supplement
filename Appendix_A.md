@@ -108,7 +108,7 @@ $$
 \end{bmatrix}
 $$
 
-$k_{dl}$ and $k_{dr}$ ($k \in {x, \theta_a, \alpha}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
+$k_{dl}$ and $k_{dr}$ ($k \in x, \theta_a, \alpha$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
 
 $$
 x_{dl}=
@@ -158,6 +158,29 @@ $$
 \end{cases}
 $$
 
+Therefore, $k_{dx}$ and $k_{d\theta}$ ($k \in x, \theta_a, \alpha$) can be derived in terms of $k_{dl}$ and $k_{dr}$ as follows:
+
+$$
+\begin{cases}
+x_{dx} &= x_{dl}+x_{dr} \\
+x_{d\theta} &= -\dfrac{W}{2R} x_{dl}+\dfrac{W}{2R} x_{dr} \\
+\end{cases}
+$$
+
+$$
+\begin{cases}
+\theta_{a,dx} &= \theta_{a,dl}+\theta_{a,dr} \\
+\theta_{a,d\theta} &= -\dfrac{W}{2R} \theta_{a,dl}+\dfrac{W}{2R} \theta_{a,dr} \\
+\end{cases}
+$$
+
+$$
+\begin{cases}
+\alpha_{dx} &= \alpha_{dl}+\alpha_{dr} \\
+\alpha_{d\theta} &= -\dfrac{W}{2R} \alpha_{dl}+\dfrac{W}{2R} \alpha_{dr} \\
+\end{cases}
+$$
+
 Moreover, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined based on the ground contact modes as follows:
 
 $$
@@ -176,7 +199,7 @@ R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling m
 \end{cases}
 $$
 
-Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be expressed in terms of $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{z} = z_{dl} \dot{\phi}\_{xl} + z_{dr} \dot{\phi}\_{xr} = z_{dx} \dot{\phi}\_{x} + z_{d\theta} \dot{\theta} = (z_{dl}+z_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \right) \dot{\theta}\
@@ -197,6 +220,13 @@ z_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
 -\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\begin{cases}
+z_{dx} &= z_{dl}+z_{dr} \\
+z_{d\theta} &= -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \\
 \end{cases}
 $$
 
