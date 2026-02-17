@@ -38,10 +38,10 @@ G_3 \\
 G_4
 \end{bmatrix}
 = \begin{bmatrix}
-\frac{1}{2} & \frac{1}{2} & 0 \\
+\dfrac{1}{2} & \dfrac{1}{2} & 0 \\
 0 & 0 & 1 \\
--\frac{R}{W} & \frac{R}{W} & 0 \\
--\frac{1}{2} & -\frac{1}{2} & 0
+-\dfrac{R}{W} & \dfrac{R}{W} & 0 \\
+-\dfrac{1}{2} & -\dfrac{1}{2} & 0
 \end{bmatrix}
 \begin{bmatrix}
 \tau_{xl} \\ 
@@ -91,16 +91,16 @@ $$
 \phi_{xr}
 \end{bmatrix}
 = \begin{bmatrix}
-\frac{1}{2} & \frac{1}{2} \\
--\frac{R}{W} & \frac{R}{W}
+\dfrac{1}{2} & \dfrac{1}{2} \\
+-\dfrac{R}{W} & \dfrac{R}{W}
 \end{bmatrix}^{-1}
 \begin{bmatrix}
 \phi_{x} \\ 
 \theta
 \end{bmatrix}
 = \begin{bmatrix}
-1 & -\frac{W}{2R}\\
-1 & \frac{W}{2R}
+1 & -\dfrac{W}{2R}\\
+1 & \dfrac{W}{2R}
 \end{bmatrix}
 \begin{bmatrix}
 \phi_{x} \\ 
@@ -113,32 +113,32 @@ $k_{dl}$ and $k_{dr}$ ($k \in x, \theta_a, \alpha$) are expressed as follows bas
 $$
 x_{dl}=
 \begin{cases}
-\frac{R}{2} \quad \text{(Rolling mode)} \\
-\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\dfrac{R}{2} \quad \text{(Rolling mode)} \\
+\dfrac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
 $$
 x_{dr}=
 \begin{cases}
-\frac{R}{2} \quad \text{(Rolling mode)} \\
-\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\dfrac{R}{2} \quad \text{(Rolling mode)} \\
+\dfrac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
 $$
 \theta_{a,dl}=
 \begin{cases}
--\frac{R}{W} \quad \text{(Rolling mode)} \\
--\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{W} \quad \text{(Rolling mode)} \\
+-\dfrac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
 $$
 \theta_{a,dr}=
 \begin{cases}
-\frac{R}{W} \quad \text{(Rolling mode)} \\
-\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\dfrac{R}{W} \quad \text{(Rolling mode)} \\
+\dfrac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -146,7 +146,7 @@ $$
 \alpha_{dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\dfrac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -154,7 +154,7 @@ $$
 \alpha_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -199,7 +199,7 @@ R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling m
 \end{cases}
 $$
 
-Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+Since $z=\dfrac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{z} = z_{dl} \dot{\phi}\_{xl} + z_{dr} \dot{\phi}\_{xr} = z_{dx} \dot{\phi}\_{x} + z_{d\theta} \dot{\theta} = (z_{dl}+z_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \right) \dot{\theta}\
@@ -211,7 +211,7 @@ $$
 z_{dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -219,7 +219,7 @@ $$
 z_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -289,7 +289,7 @@ $$
 \dot{x}\_{dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -297,7 +297,7 @@ $$
 \dot{x}\_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -305,7 +305,7 @@ $$
 \dot{\theta}\_{a,dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\dfrac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -313,7 +313,7 @@ $$
 \dot{\theta}\_{a,dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -321,7 +321,7 @@ $$
 \dot{\alpha}\_{dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\dfrac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -329,7 +329,7 @@ $$
 \dot{\alpha}\_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)} 
+-\dfrac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)} 
 \end{cases}
 $$
 
@@ -337,7 +337,7 @@ $$
 \dot{z}\_{dl}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -345,7 +345,7 @@ $$
 \dot{z}\_{dr}=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \dfrac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -354,7 +354,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(x_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -362,7 +362,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(x_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -370,7 +370,7 @@ $$
 \dfrac{\partial}{\partial\theta}(x_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+\dfrac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -378,7 +378,7 @@ $$
 \dfrac{\partial}{\partial\theta}(x_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\dfrac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -386,7 +386,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(\theta_{a,dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\dfrac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -394,7 +394,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(\theta_{a,dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -402,7 +402,7 @@ $$
 \dfrac{\partial}{\partial\theta}(\theta_{a,dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\dfrac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -410,7 +410,7 @@ $$
 \dfrac{\partial}{\partial\theta}(\theta_{a,dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\dfrac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -418,7 +418,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(\alpha_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)} 
+\dfrac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)} 
 \end{cases}
 $$
 
@@ -426,7 +426,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(\alpha_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)} 
+-\dfrac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)} 
 \end{cases}
 $$
 
@@ -434,7 +434,7 @@ $$
 \dfrac{\partial}{\partial\theta}(\alpha_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\dfrac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -442,7 +442,7 @@ $$
 \dfrac{\partial}{\partial\theta}(\alpha_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)} 
+-\dfrac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)} 
 \end{cases}
 $$
 
@@ -450,7 +450,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(z_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -458,7 +458,7 @@ $$
 \dfrac{\partial}{\partial\phi_x}(z_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+-\dfrac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -466,7 +466,7 @@ $$
 \dfrac{\partial}{\partial\theta}(z_{dl})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
-\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+\dfrac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
@@ -474,7 +474,7 @@ $$
 \dfrac{\partial}{\partial\theta}(z_{dr})=
 \begin{cases}
 0 \quad \text{(Rolling mode)} \\
--\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
+-\dfrac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \cdot \dfrac{W}{2R} \quad \text{(Falling mode)}
 \end{cases}
 $$
 
