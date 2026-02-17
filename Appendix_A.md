@@ -108,7 +108,57 @@ $$
 \end{bmatrix}
 $$
 
-Based on the ground contact modes of the omnidirectional wheel defined in **Section** 2, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined as follows:
+Therefore, $k_{dl}$ and $k_{dr}$ ($k \in {x, \theta_a, \alpha}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
+
+$$
+x_{dl}=
+\begin{cases}
+\frac{R}{2} \quad \text{(Rolling Mode)} \\
+\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+x_{dr}=
+\begin{cases}
+\frac{R}{2} \quad \text{(Rolling Mode)} \\
+\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+\theta_{a,dl}=
+\begin{cases}
+-\frac{R}{W} \quad \text{(Rolling Mode)} \\
+-\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+\theta_{a,dr}=
+\begin{cases}
+\frac{R}{W} \quad \text{(Rolling Mode)} \\
+\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+\alpha_{dl}=
+\begin{cases}
+0 \quad \text{(Rolling Mode)} \\
+\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+\alpha_{dr}=
+\begin{cases}
+0 \quad \text{(Rolling Mode)} \\
+-\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+Moreover, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined based on the ground contact modes as follows:
 
 $$
 z_{l}=
@@ -130,6 +180,24 @@ Since $z=\frac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be expressed in terms of
 
 $$
 \dot{z} = z_{dl} \dot{\phi}\_{xl} + z_{dr} \dot{\phi}\_{xr} = z_{dx} \dot{\phi}\_{x} + z_{d\theta} \dot{\theta} = (z_{dl}+z_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \right) \dot{\theta}\
+$$
+
+where
+
+$$
+z_{dl}=
+\begin{cases}
+0 \quad \text{(Rolling Mode)} \\
+-\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
+$$
+
+$$
+z_{dr}=
+\begin{cases}
+0 \quad \text{(Rolling Mode)} \\
+-\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling Mode)}
+\end{cases}
 $$
 
 Thus, for the detailed plant, Eq. (18) is expressed as follows:
