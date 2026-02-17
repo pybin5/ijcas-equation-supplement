@@ -158,7 +158,7 @@ $$
 \end{cases}
 $$
 
-Therefore, $k_{dx}$ and $k_{d\theta}$ ($k \in \\{x, \theta_a, \alpha\\}$) can be derived in terms of $k_{dl}$ and $k_{dr}$ as follows:
+Therefore, $k_{dx}$ and $k_{d\theta}$ ($k \in \\{x, \theta_a, \alpha\\}$) are derived from $k_{dl}$ and $k_{dr}$ as follows:
 
 $$
 \begin{cases}
