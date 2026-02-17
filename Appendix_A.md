@@ -275,7 +275,6 @@ b_2 &= -Ml \sin(\psi)
 \end{cases}
 $$
 
-
 <!--
 $$
 \begin{cases}
@@ -285,3 +284,68 @@ b_3 &= -Ml \sin(\psi) \\
 \end{cases}
 $$
 -->
+
+$$
+\dot{x}\_{dl}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{2} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{x}\_{dr}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{2} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{\theta}\_{a,dl}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+\frac{R}{W} \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{\theta}\_{a,dr}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{W} \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{\alpha}\_{dl}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+\frac{R}{W} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{\alpha}\_{dr}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{W} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)} 
+\end{cases}
+$$
+
+$$
+\dot{z}\_{dl}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{2} \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x - \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+\dot{z}\_{dr}=
+\begin{cases}
+0 \quad \text{(Rolling mode)} \\
+-\frac{R}{2} \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \left( \dot{\phi}\_x + \frac{W}{2R} \dot{\theta} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
