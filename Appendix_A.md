@@ -108,7 +108,7 @@ $$
 \end{bmatrix}
 $$
 
-Therefore, $k_{dl}$ and $k_{dr}$ ($k \in {x, \theta_a, \alpha}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
+$k_{dl}$ and $k_{dr}$ ($k \in {x, \theta_a, \alpha}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
 
 $$
 x_{dl}=
