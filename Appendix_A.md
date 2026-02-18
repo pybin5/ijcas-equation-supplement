@@ -114,7 +114,7 @@ $$
 
 where $$P_{C,xl}$$ and $$P_{C,xr}$$ represent the initial ground contact points of the left and right wheels, respectively.
 
-As shown in Eq. (10), $$x$$ and $$z$$ are expressed as $x=\dfrac{x_{l} + x_{r}}{2}$ and $z=\dfrac{z_{l} + z_{r}}{2}$, respectively.
+As shown in Eq. (10), $$x$$ and $$z$$ are expressed as $x=\dfrac{x_{l} + x_{r}}{2}$ and $z=\dfrac{z_{l} + z_{r}}{2}$.
 
 
 In the detailed plant, $$\dot{x}$$, $$\dot{\theta}_a$$, and $$\dot{\alpha}$$ obtained using Eq. (11) can be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
