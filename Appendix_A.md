@@ -77,6 +77,46 @@ $$
 
 ## Detailed Plant
 
+In the detailed plant, the x- and z-direction motions of the left and right wheels, $$x_{l}$$, $$x_{r}$$, $$z_{l}$$, and $$z_{r}$$, are defined as follows based on the ground contact modes of the omnidirectional wheel described in **Section** 2:
+
+$$
+x_{l}=
+\begin{cases}
+P_{C,xl} + R \left( \bar{\phi}\_{xl} - \bar{\phi}\_{xl,ini} \right) \quad \text{(Rolling mode)} \\
+P_{C,xl} + R \sin \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+x_{r}=
+\begin{cases}
+P_{C,xr} + R \left( \bar{\phi}\_{xr} - \bar{\phi}\_{xr,ini} \right) \quad \text{(Rolling mode)} \\
+P_{C,xr} + R \sin \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+
+$$
+z_{l}=
+\begin{cases}
+R \quad \text{(Rolling mode)} \\
+R \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+$$
+z_{r}=
+\begin{cases}
+R \quad \text{(Rolling mode)} \\
+R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
+\end{cases}
+$$
+
+where $$P_{C,xl}$$ and $$P_{C,xr}$$ represent the initial ground contact points of the left and right wheels, respectively.
+
+As shown in Eq. (10), $$x$$ and $$z$$ are expressed as $x=\dfrac{x_{l} + x_{r}}{2}$ and $z=\dfrac{z_{l} + z_{r}}{2}$, respectively.
+
+
 In the detailed plant, $$\dot{x}$$, $$\dot{\theta}_a$$, and $$\dot{\alpha}$$ obtained using Eq. (11) can be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
@@ -108,7 +148,7 @@ $$
 \end{bmatrix}
 $$
 
-$k_{dl}$ and $k_{dr}$ ($k \in \\{x, \theta_a, \alpha\\}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2:
+$k_{dl}$ and $k_{dr}$ ($k \in \\{x, \theta_a, \alpha\\}$) are expressed as follows based on the ground contact modes of the omnidirectional wheel defined in **Section** 2: can be defined based on the ground contact modes as follows:
 
 $$
 x_{dl}=
@@ -181,25 +221,7 @@ $$
 \end{cases}
 $$
 
-Moreover, the z-direction motions of the left and right wheels, $$z_{l}$$ and $$z_{r}$$, can be defined based on the ground contact modes as follows:
-
-$$
-z_{l}=
-\begin{cases}
-R \quad \text{(Rolling mode)} \\
-R \cos \left( \bar{\phi}_{xl} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
-\end{cases}
-$$
-
-$$
-z_{r}=
-\begin{cases}
-R \quad \text{(Rolling mode)} \\
-R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling mode)}
-\end{cases}
-$$
-
-Since $z=\dfrac{z_{l} + z_{r}}{2}$, $$\dot{z}$$ can also be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
+$$\dot{z}$$ can also be converted to the form for $$\dot{\phi}_x$$ and $$\dot{\theta}$$ as follows:
 
 $$
 \dot{z} = z_{dl} \dot{\phi}\_{xl} + z_{dr} \dot{\phi}\_{xr} = z_{dx} \dot{\phi}\_{x} + z_{d\theta} \dot{\theta} = (z_{dl}+z_{dr}) \dot{\phi}\_x + \left( -\dfrac{W}{2R} z_{dl}+\dfrac{W}{2R} z_{dr} \right) \dot{\theta}\
