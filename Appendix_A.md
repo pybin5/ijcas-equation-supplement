@@ -112,7 +112,7 @@ R \cos \left( \bar{\phi}_{xr} \pm \dfrac{\pi}{2N} \right) \quad \text{(Falling m
 \end{cases}
 $$
 
-where $$P_{C,xl}$$ and $$P_{C,xr}$$ represent the initial ground contact points of the left and right wheels, $$\bar{\phi}\_{xl,ini}$$ and $$\bar{\phi}\_{xr,ini}$$ correspond to the initial local rotation angle $$\bar{\phi}\_{ini}$$ in Eq. (3) for the left and right wheels, respectively.
+where $$P_{C,xl}$$ and $$P_{C,xr}$$ represent the initial ground contact points of the left and right wheels, and $$\bar{\phi}\_{xl,ini}$$ and $$\bar{\phi}\_{xr,ini}$$ correspond to the initial local rotation angle $$\bar{\phi}\_{ini}$$ in Eq. (3) for the left and right wheels, respectively.
 
 As shown in Eq. (10), $$x$$ and $$z$$ are expressed as $x=\dfrac{x_{l} + x_{r}}{2}$ and $z=\dfrac{z_{l} + z_{r}}{2}$.
 
